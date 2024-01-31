@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{process.env.EXPO_PUBLIC_API_URL}</Text>
+      <Text>Test: {process.env.EXPO_PUBLIC_API_URL}</Text>
       <StatusBar style="auto" />
     </View>
   );
